@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class WindChill{
-    public static double calculateWindChill(double temperature, double windSpeed){
+    public double calculateWindChill(double temperature, double windSpeed){
         double windChill = 35.74 + (0.6215 * temperature) + (0.4275* temperature - 35.75) * windSpeed;
         return windChill;
     }
@@ -13,7 +13,8 @@ public class WindChill{
         double windSpeed = sc.nextDouble();
 
         // Calculating the Wind Chill using the function
-        double windChill = calculateWindChill(temperature,windSpeed);
+        WindChill wc = new WindChill();
+        double windChill = wc.calculateWindChill(temperature,windSpeed);
 
         //Displaying the output
         System.out.println("The wind Chill value is "+windChill);
