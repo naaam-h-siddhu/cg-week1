@@ -13,7 +13,7 @@ public class SimpleInterest{
         int rate = sc.nextInt();
         int time = sc.nextInt();
 
-        // calling simpleinterst method to calculate
+        // calling simple interest method to calculate
         double SI = simpleInterest(principal, rate, time);
         //Printing the outputs
         System.out.println("The simple interest is "+SI+" for Principal "+principal+" , Rate of Interest "+rate+" and Time "+time);
