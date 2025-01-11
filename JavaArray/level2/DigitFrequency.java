@@ -23,6 +23,7 @@ public class DigitFrequency{
                 continue;
             System.out.println("The frequency of digit "+i+" is "+arr[i]);
         }
+        
 
     }
 }
