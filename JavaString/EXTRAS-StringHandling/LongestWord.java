@@ -23,6 +23,6 @@ public class LongestWord {
         System.out.println("Enter a sentence");
         String s = sc.nextLine();
         String  ans = getLongestWord(s);
-        System.out.println("The longes word is "+ans);
+        System.out.println("The longest word is "+ans);
     }
 }
