@@ -8,7 +8,7 @@ public class ArrayOutOfBoundException {
         try{
             return s[3];
         }
-        catch (ArrayIndexOutOfBoundsException e){
+        catch (Exception e){
             System.out.println("Array Index Out of Bound exception occurred");
             return "siddhu";
         }
